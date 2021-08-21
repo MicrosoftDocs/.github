@@ -26,6 +26,6 @@ This information will help us triage your report more quickly.
 
 We prefer all communications to be in English.
 
-## Policy
+## Policy 
 
 Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https://www.microsoft.com/en-us/msrc/cvd).
