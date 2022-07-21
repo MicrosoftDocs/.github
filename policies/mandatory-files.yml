@@ -1,0 +1,31 @@
+# metadata
+name: mandatory files policy
+description: this policy will ensure the presence of important files in Microsoft project repositories
+
+# filters
+resource: repository
+where:
+- |
+  repository.name.equals("mslearn-microservices-architecture", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("pipelines-azureml", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("pipelines-dotnet-core",  StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("pipelines-go", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("pipelines-javascript", StringComparison.InvariantCultureIgnoreCase)
+  || repository.name.equals("Virtualization-Documentation", StringComparison.InvariantCultureIgnoreCase)
+  
+# primitive configuration
+configuration:
+    mandatoryFiles:
+     issueTitle: This repo is missing important files
+     issueBody:  |
+          There are important files that Microsoft projects should all have that are not present in this repository. A pull request has been opened to add the missing file(s). When the pr is merged this issue will be closed automatically.
+          
+          Microsoft teams can [learn more about this effort and share feedback](https://docs.opensource.microsoft.com/releasing/maintain/templates/) within the open source guidance available internally.
+     prTitle: Adding Microsoft SECURITY.MD
+     prBody:  |
+           Please accept this contribution adding the standard Microsoft SECURITY.MD :lock: file to help the community understand the security policy and how to safely report security issues. GitHub uses the presence of this file to light-up security reminders and a link to the file. This pull request commits the latest official SECURITY.MD file from https://github.com/microsoft/repo-templates/blob/main/shared/SECURITY.md.
+           
+           Microsoft teams can [learn more about this effort and share feedback](https://docs.opensource.microsoft.com/releasing/maintain/templates/) within the open source guidance available internally.
+     file:
+      - path: SECURITY.md
+        prContentLink: https://raw.githubusercontent.com/microsoft/repo-templates/main/shared/SECURITY.md
