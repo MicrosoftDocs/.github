@@ -29,3 +29,4 @@ configuration:
      file:
       - path: SECURITY.md
         prContentLink: https://raw.githubusercontent.com/microsoft/repo-templates/main/shared/SECURITY.md
+
