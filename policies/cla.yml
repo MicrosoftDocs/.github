@@ -105,6 +105,7 @@ configuration:
          - liurunliang-bot
       prohibitedCompanies:
          - msft
+         - microsoft
       autoSignMsftEmployee: true
       signRepos:
       - repoName: cla-approvers-intel
