@@ -103,6 +103,10 @@ configuration:
          - OhMyGuus-Bot
          - podman-desktop-bot
          - liurunliang-bot
+         - prmerger-test[bot]
+         - learn-build-service-test[bot]
+         - learn-build-service-ppe[bot]
+         - learn-build-service-prod[bot]
       prohibitedCompanies:
          - msft
          - microsoft
