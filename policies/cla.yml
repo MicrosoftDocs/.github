@@ -108,6 +108,7 @@ configuration:
          - learn-build-service-ppe[bot]
          - learn-build-service-prod[bot]
          - pull[bot]
+         - cxwtool
       prohibitedCompanies:
          - msft
          - microsoft
