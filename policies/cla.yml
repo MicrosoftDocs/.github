@@ -107,6 +107,7 @@ configuration:
          - learn-build-service-test[bot]
          - learn-build-service-ppe[bot]
          - learn-build-service-prod[bot]
+         - pull[bot]
       prohibitedCompanies:
          - msft
          - microsoft
