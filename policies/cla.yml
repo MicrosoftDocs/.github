@@ -12,6 +12,7 @@ configuration:
       bypassOrgs:
          - bloomberg
       bypassUsers:
+         - cxwtool
          - dependabot[bot]
          - greenkeeper[bot]
          - dotnet-maestro[bot]
@@ -108,7 +109,6 @@ configuration:
          - learn-build-service-ppe[bot]
          - learn-build-service-prod[bot]
          - pull[bot]
-         - cxwtool
       prohibitedCompanies:
          - msft
          - microsoft
