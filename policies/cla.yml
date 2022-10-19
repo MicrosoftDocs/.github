@@ -109,6 +109,7 @@ configuration:
          - learn-build-service-prod[bot]
          - pull[bot]
          - cxwtool
+         - mec-sa
       prohibitedCompanies:
          - msft
          - microsoft
