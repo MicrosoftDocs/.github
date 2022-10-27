@@ -111,6 +111,7 @@ configuration:
          - cxwtool
          - mec-sa
          - prmerger-automation[bot]
+         - opbld17
       prohibitedCompanies:
          - msft
          - microsoft
