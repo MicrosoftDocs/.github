@@ -110,6 +110,7 @@ configuration:
          - pull[bot]
          - cxwtool
          - mec-sa
+         - prmerger-automation[bot]
       prohibitedCompanies:
          - msft
          - microsoft
