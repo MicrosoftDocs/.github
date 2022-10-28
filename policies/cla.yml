@@ -111,6 +111,10 @@ configuration:
          - cxwtool
          - mec-sa
          - prmerger-automation[bot]
+         - openpublishbuild
+         - opbld27
+         - opbld15
+         - opbld16
          - opbld17
       prohibitedCompanies:
          - msft
