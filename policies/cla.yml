@@ -117,7 +117,8 @@ configuration:
          - opbld16
          - opbld17
          - VSC-Service-Account
-         - wsd-ram-github-app[bot] 
+         - wsd-ram-github-app[bot]
+         - docsautomation[bot]
       prohibitedCompanies:
          - msft
          - microsoft
