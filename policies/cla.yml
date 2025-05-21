@@ -119,6 +119,8 @@ configuration:
          - VSC-Service-Account
          - wsd-ram-github-app[bot]
          - docsautomation[bot]
+         - Copilot
+         - Copilot[bot]
       prohibitedCompanies:
          - msft
          - microsoft
