@@ -5,7 +5,7 @@ description: this policy will ensure the presence of important files in Microsof
 # filters
 resource: repository
 where:
-- |
+|
   repository.name.equals("mslearn-microservices-architecture", StringComparison.InvariantCultureIgnoreCase)
   || repository.name.equals("pipelines-azureml", StringComparison.InvariantCultureIgnoreCase)
   || repository.name.equals("pipelines-dotnet-core",  StringComparison.InvariantCultureIgnoreCase)
