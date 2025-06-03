@@ -3,14 +3,16 @@ description: CLA policy file
 
 resource: repository
 
-configuration: 
+configuration:
    cla:
       content: https://raw.githubusercontent.com/microsoft/.github/main/CLA/microsoft.yml
-      minimalChangeRequired: 
+      minimalChangeRequired:
          files: 2
          codeLines: 16
       bypassOrgs:
          - bloomberg
+         - msft
+         - microsoft
       bypassUsers:
          - dependabot[bot]
          - greenkeeper[bot]
@@ -122,10 +124,8 @@ configuration:
          - Copilot
          - Copilot[bot]
       prohibitedCompanies:
-         - msft
-         - microsoft
       autoSignMsftEmployee: true
       signRepos:
-      - repoName: cla-approvers-intel
-        fileName: approvedUsers.csv
-        companyName: intel
+         - repoName: cla-approvers-intel
+           fileName: approvedUsers.csv
+           companyName: intel
