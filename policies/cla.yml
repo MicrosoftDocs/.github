@@ -121,6 +121,7 @@ configuration:
          - docsautomation[bot]
          - Copilot
          - Copilot[bot]
+         - linkedin-api-docs-pull-back-bot[bot]
       prohibitedCompanies:
          - msft
          - microsoft
