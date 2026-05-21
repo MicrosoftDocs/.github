@@ -119,6 +119,7 @@ configuration:
          - VSC-Service-Account
          - wsd-ram-github-app[bot]
          - docsautomation[bot]
+         - msec-docs-bot[bot]
          - Copilot
          - Copilot[bot]
          - linkedin-api-docs-pull-back-bot[bot]
