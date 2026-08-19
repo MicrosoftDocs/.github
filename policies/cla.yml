@@ -28,6 +28,7 @@ configuration:
          - pbicvbot
          - acomghbot
          - azuresdkciprbot
+         - azure-patterns-practices-assistant[bot]
          - dotnet-corert-bot
          - iotgwbot
          - LordBobbot
