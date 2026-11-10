@@ -125,6 +125,7 @@ configuration:
          - Copilot
          - Copilot[bot]
          - linkedin-api-docs-pull-back-bot[bot]
+         - agent-sam-doc[bot]
       prohibitedCompanies:
          - msft
          - microsoft
