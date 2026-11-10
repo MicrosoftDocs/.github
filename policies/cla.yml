@@ -29,7 +29,7 @@ configuration:
          - acomghbot
          - azuresdkciprbot
          - azure-patterns-practices-assistant[bot]
-         - reliability-hub-content-automation
+         - reliability-hub-content-automation[bot]
          - dotnet-corert-bot
          - iotgwbot
          - LordBobbot
